@@ -16,3 +16,6 @@
 [submodule "Explainability"]
 	path = Explainability
 	url = https://github.com/Adept-ML/Explainability.git
+[submodule "Data-Management"]
+	path = Data-Management
+	url = https://github.com/Adept-ML/Data-Management.git
