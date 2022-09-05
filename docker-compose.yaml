@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  react:
+    container_name: ADEPT-ML-Frontend
+    restart: always
+    build:
+      context: .
+      dockerfile: Frontend/Dockerfile
+    volumes:
+      - ./Frontend/src:/app/src
+    ports:
+      - "1234:1234"
+    command: npx parcel ./src/index.html
