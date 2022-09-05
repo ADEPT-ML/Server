@@ -1,0 +1,4 @@
+/venv/
+/.idea/
+*.xls
+/__pycache__/

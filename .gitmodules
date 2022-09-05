@@ -1,0 +1,30 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Adept-ML/Frontend.git
+	update = merge
+	branch = master
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Adept-ML/Backend.git
+	update = merge
+	branch = master
+[submodule "preprocessing"]
+	path = preprocessing
+	url = https://github.com/Adept-ML/Preprocessing.git
+	update = merge
+	branch = master
+[submodule "feature-engineering"]
+	path = feature-engineering
+	url = https://github.com/Adept-ML/Feature-Engineering.git
+	update = merge
+	branch = master
+[submodule "anomaly-detection"]
+	path = frontend
+	url = https://github.com/Adept-ML/Anomaly-Detection.git
+	update = merge
+	branch = master
+[submodule "explainability"]
+	path = frontend
+	url = https://github.com/Adept-ML/Explainability.git
+	update = merge
+	branch = master
