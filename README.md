@@ -23,7 +23,7 @@
 
 ## What is ADEPT?
 
-TBD
+ADEPT is a framework for detecting anomalies in energy consumption data. As such, it includes interfaces for processing user time series data and can be used to interactively visualize explanatory information about anomalies. ADEPT features several shallow and deep machine learning algorithms for anomaly detection and explanation.
 
 ## Installing
 
