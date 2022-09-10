@@ -2,3 +2,4 @@
 /.idea/
 *.xls
 /__pycache__/
+/data/

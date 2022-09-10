@@ -5,8 +5,8 @@ services:
     container_name: ADEPT-ML-Frontend
     restart: always
     build:
-      context: .
-      dockerfile: Frontend/Dockerfile
+      context: ./Frontend
+      dockerfile: Dockerfile
     volumes:
       - ./Frontend/src:/app/src
     ports:
@@ -20,3 +20,16 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./Backend:/app
+    ports:
+      - "8000:8000"
+  data-management:
+    container_name: ADEPT-ML-Data-Management
+    restart: always
+    build:
+      context: ./Data-Management
+      dockerfile: Dockerfile
+    volumes:
+      - ./Data-Management:/app
+      - ./data:/app/data
+    ports:
+      - "8001:8001"
