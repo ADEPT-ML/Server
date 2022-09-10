@@ -33,3 +33,13 @@ services:
       - ./data:/app/data
     ports:
       - "8001:80"
+  anomaly-detection:
+    container_name: ADEPT-ML-Anomaly-Detection
+    restart: always
+    build:
+      context: ./Anomaly-Detection
+      dockerfile: Dockerfile
+    volumes:
+      - ./Anomaly-Detection:/app
+    ports:
+      - "8004:80"
