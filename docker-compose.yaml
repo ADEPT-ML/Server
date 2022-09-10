@@ -33,6 +33,26 @@ services:
       - ./data:/app/data
     ports:
       - "8001:80"
+  preprocessing:
+    container_name: ADEPT-ML-Preprocessing
+    restart: always
+    build:
+      context: ./Preprocessing
+      dockerfile: Dockerfile
+    volumes:
+      - ./Preprocessing:/app
+    ports:
+      - "8002:80"
+  feature-engineering:
+    container_name: ADEPT-ML-Feature-Engineering
+    restart: always
+    build:
+      context: ./Feature-Engineering
+      dockerfile: Dockerfile
+    volumes:
+      - ./Feature-Engineering:/app
+    ports:
+      - "8003:80"
   anomaly-detection:
     container_name: ADEPT-ML-Anomaly-Detection
     restart: always
