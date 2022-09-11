@@ -33,7 +33,7 @@ echo                                     "▀██████████▀"
 echo.
 
 :start
-if not exist data21\ goto missing-data
+if not exist data\ goto missing-data
 docker-compose -f docker-compose.yaml up --detach
 pause
 EXIT
