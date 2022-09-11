@@ -63,3 +63,13 @@ services:
       - ./Anomaly-Detection:/app
     ports:
       - "8004:80"
+  explainability:
+    container_name: ADEPT-ML-Explainability
+    restart: always
+    build:
+      context: ./Explainability
+      dockerfile: Dockerfile
+    volumes:
+      - ./Explainability:/app
+    ports:
+      - "8005:80"
