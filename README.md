@@ -28,7 +28,7 @@
 - [Features](#features)
 - [Technologies and Frameworks used](#technologies-and-frameworks-used)
 - [Quick start](#quick-start)
-- [Contributors](https://fraunhoferisst.github.io/diva-docs/)
+- [Contributors](#contributors)
 <!-- - [Documentation](tbd) -->
 
 <!-- END TABLE OF CONTENT -->
@@ -41,7 +41,7 @@ ADEPT is a framework for detecting anomalies in energy consumption data. As such
 
 tbd
 
-## Core Technologies and Frameworks used
+## Technologies and Frameworks used
 
 |Technology|Description|
 |----------|-------------|
