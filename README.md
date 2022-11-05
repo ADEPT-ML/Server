@@ -21,19 +21,53 @@
   Anomaly Detection, Explanation and Processing for Time Series with a Focus on Energy Consumption Data
 </p>
 
+<!-- START TABLE OF CONTENT -->
+## Table of Contents
+
+- [Whats is ADEPT](#What-is-ADEPT?)
+- [Features](#features)
+- [Technologies and Frameworks used](#technologies-and-frameworks-used)
+- [Quick start](#quick-start)
+- [Contributors](https://fraunhoferisst.github.io/diva-docs/)
+<!-- - [Documentation](tbd) -->
+
+<!-- END TABLE OF CONTENT -->
+
 ## What is ADEPT?
 
 ADEPT is a framework for detecting anomalies in energy consumption data. As such, it includes interfaces for processing user time series data and can be used to interactively visualize explanatory information about anomalies. ADEPT features several shallow and deep machine learning algorithms for anomaly detection and explanation.
 
-## Installing
+## Features
 
-TBD
+tbd
 
+## Core Technologies and Frameworks used
 
-## Contributing
+|Technology|Description|
+|----------|-------------|
+tbd
 
-TBD
+## Quick start
+
+The complete system can be quickly bootstrapped with Docker:
+```sh
+# execute the script to boot all necessary components
+sh ADEPT-Start.bat
+```
+Some system settings might need to be tweaked. For example you will need to remove the `-` when you are already using docker with Compose V2.
+
+## Contributors
+
+|**Benedikt Tobias Müller**|**Janis Büse**|
+|:---:|:---:|
+|[![Benedikt Tobias Müller](https://avatars.githubusercontent.com/u/61744142?v=4&s=128)](https://github.com/BenediktTobias) | [![Janis Büse](https://avatars.githubusercontent.com/u/47151705?v=4&s=128)](https://github.com/jbuese) 
+
+<!-- replace with 
+<a href="https://github.com/adept-ml/server/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=adept-ml/server" />
+</a>
+-->
 
 ## License
 
-TBD
+Copyright © ADEPT ML, TU Dortmund 2022
