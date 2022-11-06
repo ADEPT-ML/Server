@@ -21,6 +21,14 @@
   Anomaly Detection, Explanation and Processing for Time Series with a Focus on Energy Consumption Data
 </p>
 
+<br/>
+
+![GitHub](https://img.shields.io/badge/ADEPT%20ML-v0.1.0-grün)
+![GitHub](https://img.shields.io/github/license/adept-ml/server)
+<br/>
+
+![ADEPT](./adept_screenshot.png)
+
 <!-- START TABLE OF CONTENT -->
 ## Table of Contents
 
@@ -55,6 +63,13 @@ The complete system can be quickly bootstrapped with Docker:
 sh ADEPT-Start.bat
 ```
 Some system settings might need to be tweaked. For example you will need to remove the `-` when you are already using docker with Compose V2.
+
+To pull the repository and all of its submodules you will have to initialize and update with 
+```sh
+git submodule init
+git submodule update
+````
+Consider using an IDE for git if you want to contribute to the project.
 
 ## Contributors
 
