@@ -27,7 +27,7 @@
 ![GitHub](https://img.shields.io/github/license/adept-ml/server)
 <br/>
 
-![ADEPT](./adept_screenshot.png)
+![ADEPT](https://user-images.githubusercontent.com/61744142/201544395-ff21af09-a4c1-4afa-bf0f-b3477fb9904d.png)
 
 <!-- START TABLE OF CONTENT -->
 ## Table of Contents
