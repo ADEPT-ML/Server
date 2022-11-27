@@ -73,9 +73,9 @@ Consider using an IDE for git if you want to contribute to the project.
 
 ## Contributors
 
-|**Benedikt Tobias Müller**|**Janis Büse**|
-|:---:|:---:|
-|[![Benedikt Tobias Müller](https://avatars.githubusercontent.com/u/61744142?v=4&s=128)](https://github.com/BenediktTobias) | [![Janis Büse](https://avatars.githubusercontent.com/u/47151705?v=4&s=128)](https://github.com/jbuese) 
+|**Benedikt Tobias Müller**|**Janis Büse**|**Marvin Ender**|
+|:---:|:---:|:---:|
+|[![Benedikt Tobias Müller](https://avatars.githubusercontent.com/u/61744142?v=4&s=128)](https://github.com/BenediktTobias) | [![Janis Büse](https://avatars.githubusercontent.com/u/47151705?v=4&s=128)](https://github.com/jbuese) | [![Marvin Ender](https://user-images.githubusercontent.com/47151705/204150923-50a2dc21-f995-4b13-8733-6ae33df84cb8.jpg)](https://github.com/mrvnndr) 
 
 <!-- replace with 
 <a href="https://github.com/adept-ml/server/graphs/contributors">
