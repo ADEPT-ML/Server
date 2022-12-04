@@ -27,7 +27,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./Data-Management:/app
-      - ./data:/app/data
+      - ./data:/data
     ports:
       - "8001:80"
   preprocessing:
