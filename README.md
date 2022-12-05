@@ -32,7 +32,7 @@
 <!-- START TABLE OF CONTENT -->
 ## Table of Contents
 
-- [Whats is ADEPT](#What-is-ADEPT)
+- [What is ADEPT](#What-is-ADEPT)
 - [Features](#features)
 - [Technologies and Frameworks used](#technologies-and-frameworks-used)
 - [Quick start](#quick-start)
