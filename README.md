@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="blank">Documentation</a> |
+  <a href="#contents">Documentation</a> |
   <a href="https://www.tu-dortmund.de/en/university/sustainabilitiy/">Sustainabilitiy at TU Dortmund</a>
 </p>
 
@@ -30,20 +30,33 @@
 ![ADEPT](https://user-images.githubusercontent.com/61744142/201544395-ff21af09-a4c1-4afa-bf0f-b3477fb9904d.png)
 
 <!-- START TABLE OF CONTENT -->
-## Table of Contents
+## Contents
 
 - [What is ADEPT](#What-is-ADEPT)
 - [Features](#features)
 - [Technologies and Frameworks used](#technologies-and-frameworks-used)
 - [Quick start](#quick-start)
 - [Contributors](#contributors)
-<!-- - [Documentation](tbd) -->
 
 <!-- END TABLE OF CONTENT -->
 
 ## What is ADEPT?
 
-ADEPT is a framework for detecting anomalies in energy consumption data. As such, it includes interfaces for processing user time series data and can be used to interactively visualize explanatory information about anomalies. ADEPT features several shallow and deep machine learning algorithms for anomaly detection and explanation.
+ADEPT is a framework for detecting anomalies in energy consumption data. As such, it includes interfaces for 
+processing user time series data and can be used to interactively visualize explanatory information about anomalies. 
+ADEPT features several shallow and deep machine learning algorithms for anomaly detection and explanation.
+
+The ADEPT framework was presented at ECML PKDD 2022 in Grenoble, France, as a contribution to the Demo Track.
+_Müller, B. T., et. al. (2022). ADEPT: Anomaly Detection, Explanation, and
+Processing for Time Series with a Focus on Energy Consumption Data."_
+
+The framework was designed and implemented as part of a project group at the Faculty of Computer Science at the 
+Technical University of Dortmund. Originally, it was intended to support the university's facility management in 
+finding anomalous energy consumption and make informed decisions on how to intervene.
+
+Note: Because the university's energy consumption data is under strict NDA, we are unable to provide the original data.
+We also cannot provide trained models that could be used to make assumptions about the energy consumption.
+We plan to add synthetic data so that interested parties can reproduce our results.
 
 ## Features
 
@@ -62,7 +75,8 @@ The complete system can be quickly bootstrapped with Docker:
 # execute the script to boot all necessary components
 sh ADEPT-Start.bat
 ```
-Some system settings might need to be tweaked. For example you will need to remove the `-` when you are already using docker with Compose V2.
+Some system settings might need to be tweaked. For example you will need to remove the `-` when you are already using 
+docker with Compose V2.
 
 To pull the repository and all of its submodules you will have to initialize and update with 
 ```sh
