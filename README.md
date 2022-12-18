@@ -70,19 +70,38 @@ tbd
 
 ## Quick start
 
+To pull the repository and all of its submodules you will have to initialize and update with 
+```sh
+git submodule init
+git submodule update
+```
+Before you start ADEPT, you must create a top-level `data` folder containing 1) the building-xls files and 2) the 
+temperature data. These files must be in the correct format, or you will have to change some of the import code at 
+the `data management` service. 
+
+```
+\-Server
+    |-Anomaly-Detection
+    |-Backend
+    |-data
+        -building_data.xls
+        -metdata.csv
+    |-Data-Management
+    |-Explainability   
+    |-Feature-Engineering
+    |-Frontend
+    |-Preprocessing
+    |-[...]
+```
+
 The complete system can be quickly bootstrapped with Docker:
 ```sh
 # execute the script to boot all necessary components
 sh ADEPT-Start.bat
 ```
-Some system settings might need to be tweaked. For example you will need to remove the `-` when you are already using 
-docker with Compose V2.
+Some system settings might need to be tweaked. For example, you will need to remove the `-` in the scripts when you are 
+already using docker with Compose V2.
 
-To pull the repository and all of its submodules you will have to initialize and update with 
-```sh
-git submodule init
-git submodule update
-````
 Consider using an IDE for git if you want to contribute to the project.
 
 ## Contributors
