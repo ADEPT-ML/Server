@@ -36,6 +36,7 @@
 - [Features](#features)
 - [Technologies and Frameworks used](#technologies-and-frameworks-used)
 - [Quick start](#quick-start)
+- [Adding functionality](#adding-functionality)
 - [Contributors](#contributors)
 
 <!-- END TABLE OF CONTENT -->
@@ -103,6 +104,13 @@ Some system settings might need to be tweaked. For example, you will need to rem
 already using docker with Compose V2.
 
 Consider using an IDE for git if you want to contribute to the project.
+
+## Adding functionality
+
+You can use ADEPT to test innovative techniques by simply customizing the appropriate component of the framework.
+For example, if you want to try a new ml model for the detection process, you can simply add the model under:
+
+tbd
 
 ## Contributors
 
