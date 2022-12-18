@@ -48,7 +48,7 @@ ADEPT features several shallow and deep machine learning algorithms for anomaly 
 
 The ADEPT framework was presented at ECML PKDD 2022 in Grenoble, France, as a contribution to the Demo Track.
 _Müller, B. T., et. al. (2022). ADEPT: Anomaly Detection, Explanation, and
-Processing for Time Series with a Focus on Energy Consumption Data."_
+Processing for Time Series with a Focus on Energy Consumption Data._
 
 The framework was designed and implemented as part of a project group at the Faculty of Computer Science at the 
 Technical University of Dortmund. Originally, it was intended to support the university's facility management in 
