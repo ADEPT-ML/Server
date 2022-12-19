@@ -23,8 +23,7 @@
 
 <br/>
 
-![GitHub](https://img.shields.io/badge/ADEPT%20ML-v0.1.0-grün)
-![GitHub](https://img.shields.io/github/license/adept-ml/server)
+![GitHub](https://img.shields.io/badge/ADEPT%20ML-v0.7.0-grün)
 <br/>
 
 ![ADEPT](https://user-images.githubusercontent.com/61744142/201544395-ff21af09-a4c1-4afa-bf0f-b3477fb9904d.png)
