@@ -33,7 +33,7 @@ DIR="data"
 
 if [ "$(ls -A $DIR)" ];
 then
-  docker-compose -f docker-compose.yaml up --detach
+  docker compose -f docker-compose.yaml up --detach || docker-compose -f docker-compose.yaml up --detach
 else
   echo The data directory is missing!
 fi

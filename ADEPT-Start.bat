@@ -34,7 +34,7 @@ echo.
 
 :start
 if not exist data\ goto missing-data
-docker-compose -f docker-compose.yaml up --detach
+docker compose -f docker-compose.yaml up --detach || docker-compose -f docker-compose.yaml up --detach
 pause
 EXIT
 

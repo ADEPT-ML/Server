@@ -99,8 +99,6 @@ The complete system can be quickly bootstrapped with Docker:
 # execute the script to boot all necessary components
 sh ADEPT-Start.bat
 ```
-Some system settings might need to be tweaked. For example, you will need to remove the `-` in the scripts when you are 
-already using docker with Compose V2.
 
 Consider using an IDE for git if you want to contribute to the project.
 
