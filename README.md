@@ -23,7 +23,7 @@
 
 <br/>
 
-![GitHub](https://img.shields.io/badge/ADEPT%20ML-v0.7.0-grün)
+![Version](https://img.shields.io/github/v/release/ADEPT-ML/Server?color=green&include_prereleases)
 <br/>
 
 ![ADEPT](https://user-images.githubusercontent.com/61744142/201544395-ff21af09-a4c1-4afa-bf0f-b3477fb9904d.png)
@@ -75,9 +75,9 @@ To pull the repository and all of its submodules you will have to initialize and
 git submodule init
 git submodule update
 ```
-Before you start ADEPT, you must create a top-level `data` folder containing 1) the building-xls files and 2) the 
+Before you start ADEPT, you must create a top-level `data` folder containing 1) the building-xls-files and 2) the 
 temperature data. These files must be in the correct format, or you will have to change some of the import code at 
-the `data management` service. 
+the `Data-Management` service. 
 
 ```
 \-Server
@@ -97,7 +97,7 @@ the `data management` service.
 The complete system can be quickly bootstrapped with Docker:
 ```sh
 # execute the script to boot all necessary components
-sh ADEPT-Start.bat
+sh ADEPT-Start.sh
 ```
 
 Consider using an IDE for git if you want to contribute to the project.
