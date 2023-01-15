@@ -61,7 +61,15 @@ We plan to add synthetic data so that interested parties can reproduce our resul
 
 ## Features
 
-tbd
+- __🕵️__ __anomaly detection:__ visualise energy consumption and detect anomalies
+- __🤖__ __on-demand machine learning:__ models allow for on-demand training on the selected data
+- __⚙️__ __configurable ML:__ easily fine-tune selections, thresholds and hyperparameters for detections
+- __📈__ __explainability:__ anomalies are explained with normal-patterns and feature-attributions
+- __💻__ __client application:__ an easy-to-use web application for non-specialist users
+- __📚__ __OpenAPI documentation:__ all APIs are fully specified in OpenAPI and easy to use for further development
+- __🖥️__ __responsive design:__ fully responsive client application for usage on any device
+- __🏛️__ __microservice architecture:__ easy cloud-ready scaling and development on SOLID-principles
+- __🐳__ __docker ready:__ all microservices and core components are docker ready, so you can start them right out of the box
 
 ## Technologies and Frameworks used
 
