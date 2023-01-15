@@ -24,6 +24,7 @@
 <br/>
 
 ![Version](https://img.shields.io/github/v/release/ADEPT-ML/Server?color=green&include_prereleases)
+![License](https://img.shields.io/github/license/adept-ml/server)
 <br/>
 
 ![ADEPT](https://user-images.githubusercontent.com/61744142/201544395-ff21af09-a4c1-4afa-bf0f-b3477fb9904d.png)
@@ -123,4 +124,4 @@ tbd
 
 ## License
 
-Copyright © ADEPT ML, TU Dortmund 2022
+Copyleft © ADEPT ML, TU Dortmund 2022
