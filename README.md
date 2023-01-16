@@ -128,7 +128,7 @@ Information about the functionality of the individual services can be found in t
 
 ### OpenAPI
 
-All endpoints are fully specified in OpenAPI. You can access Swagger via `/docs` - e.g. `localhost:8001/docs` for for the `Data-Management`.
+All endpoints are fully specified in OpenAPI. You can access Swagger via `/docs` - e.g. `localhost:8001/docs` for the `Data-Management`.
 
 ![image](https://user-images.githubusercontent.com/47151705/212663361-bb5e571a-3c4b-4b11-84c2-9554f39be7a8.png)
 
