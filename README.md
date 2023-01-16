@@ -81,6 +81,7 @@ tbd
 
 To pull the repository and all of its submodules you will have to initialize and update with 
 ```sh
+# clone this repository first
 git submodule init
 git submodule update
 ```
@@ -111,12 +112,34 @@ sh ADEPT-Start.sh
 
 Consider using an IDE for git if you want to contribute to the project.
 
+### Services and port mappings
+
+| Container-Name               | Image-Name                 | Ports                |
+|------------------------------|----------------------------|----------------------|
+| ADEPT-ML-Frontend            | server-react               | 0.0.0.0:80->80/tcp   |
+| ADEPT-ML-Backend             | server-backend             | 0.0.0.0:8000->80/tcp |
+| ADEPT-ML-Data-Management     | server-data-management     | 0.0.0.0:8001->80/tcp |
+| ADEPT-ML-Preprocessing       | server-preprocessing       | 0.0.0.0:8002->80/tcp |
+| ADEPT-ML-Feature-Engineering | server-feature-engineering | 0.0.0.0:8003->80/tcp |
+| ADEPT-ML-Anomaly-Detection   | server-anomaly-detection   | 0.0.0.0:8004->80/tcp |
+| ADEPT-ML-Explainability      | server-explainability      | 0.0.0.0:8005->80/tcp |
+
+Information about the functionality of the individual services can be found in the sub-repos or is documented in the code (pydoc, OpenAPI).
+
+### OpenAPI
+
+All endpoints are fully specified in OpenAPI. You can access Swagger via `/docs` - e.g. `localhost:8001/docs` for for the `Data-Management`.
+
+![image](https://user-images.githubusercontent.com/47151705/212663361-bb5e571a-3c4b-4b11-84c2-9554f39be7a8.png)
+
 ## Adding functionality
 
 You can use ADEPT to test innovative techniques by simply customizing the appropriate component of the framework.
 For example, if you want to try a new ml model for the detection process, you can simply add the model under:
 
-tbd
+* ▶ How to add new models or change detection-configuration
+* ▶ How to add explainability modules
+* ▶ How to add new import-functionality (for other formats)
 
 ## Contributors
 
