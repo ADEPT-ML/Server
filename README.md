@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="#contents">Documentation</a> |
-  <a href="https://www.tu-dortmund.de/en/university/sustainabilitiy/">Sustainabilitiy at TU Dortmund</a>
+  <a href="https://www.tu-dortmund.de/en/university/sustainabilitiy/">Sustainability at TU Dortmund</a>
 </p>
 
 <h3 align="center">
@@ -73,8 +73,8 @@ We plan to add synthetic data so that interested parties can reproduce our resul
 
 ## Technologies and Frameworks used
 
-|Technology|Description|
-|----------|-------------|
+| Technology | Description |
+|------------|-------------|
 tbd
 
 ## Quick start
@@ -86,22 +86,22 @@ git submodule init
 git submodule update
 ```
 Before you start ADEPT, you must create a top-level `data` folder containing 1) the building-xls-files and 2) the 
-temperature data. These files must be in the correct format, or you will have to change some of the import code at 
+temperature data. These files must be in the correct format, or you will have to change the import code in 
 the `Data-Management` service. 
 
 ```
 \-Server
-    |-Anomaly-Detection
-    |-Backend
-    |-data
-        -building_data.xls
-        -metdata.csv
-    |-Data-Management
-    |-Explainability   
-    |-Feature-Engineering
-    |-Frontend
-    |-Preprocessing
-    |-[...]
+    ├── Anomaly-Detection
+    ├── Backend
+    ├── data
+    │   ├── building_data.xls
+    │   └── metadata.csv
+    ├── Data-Management
+    ├── Explainability   
+    ├── Feature-Engineering
+    ├── Frontend
+    ├── Preprocessing
+    ├── [...]
 ```
 
 The complete system can be quickly bootstrapped with Docker:
@@ -145,13 +145,7 @@ For example, if you want to try a new ml model for the detection process, you ca
 
 |**Benedikt Tobias Müller**|**Janis Büse**|**Marvin Ender**|
 |:---:|:---:|:---:|
-|[![Benedikt Tobias Müller](https://avatars.githubusercontent.com/u/61744142?v=4&s=128)](https://github.com/BenediktTobias) | [![Janis Büse](https://avatars.githubusercontent.com/u/47151705?v=4&s=128)](https://github.com/jbuese) | [![Marvin Ender](https://user-images.githubusercontent.com/47151705/204150923-50a2dc21-f995-4b13-8733-6ae33df84cb8.jpg)](https://github.com/mrvnndr) 
-
-<!-- replace with 
-<a href="https://github.com/adept-ml/server/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=adept-ml/server" />
-</a>
--->
+|[![Benedikt Tobias Müller](https://avatars.githubusercontent.com/u/61744142?v=4&s=128)](https://github.com/BenediktTobias) | [![Janis Büse](https://avatars.githubusercontent.com/u/47151705?v=4&s=128)](https://github.com/jbuese) | [![Marvin Ender](https://user-images.githubusercontent.com/47151705/204150923-50a2dc21-f995-4b13-8733-6ae33df84cb8.jpg)](https://github.com/mrvnndr)|
 
 ## License
 
