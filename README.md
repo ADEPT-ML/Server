@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="#contents">Documentation</a> |
-  <a href="https://www.tu-dortmund.de/en/university/sustainabilitiy/">Sustainability at TU Dortmund</a>
+  <a href="https://www.tu-dortmund.de/en/university/sustainability/">Sustainability at TU Dortmund</a>
 </p>
 
 <h3 align="center">
