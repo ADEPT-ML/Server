@@ -52,7 +52,7 @@
 
 - [What is ADEPT](#What-is-ADEPT)
 - [Features](#features)
-- [Technologies and Frameworks used](#technologies-and-frameworks-used)
+- [Core Technologies and Frameworks](#core-technologies-and-frameworks)
 - [Quick start](#quick-start)
 - [Adding functionality](#adding-functionality)
 - [Contributors](#contributors)
@@ -167,11 +167,11 @@ the `Data-Management`.
 You can use ADEPT to test innovative techniques by simply customizing the appropriate component of the framework.
 For example, if you want to try a new ml model for the detection process, you can simply add the model under:
 
-[▶ How to add new models or change detection-configuration](https://github.com/ADEPT-ML/Anomaly-Detection/blob/main/README.md#adding-functionality)
+[▶ How to add new models or change detection-configuration](https://github.com/ADEPT-ML/Anomaly-Detection#adding-functionality)
 
-[▶ How to add explainability modules](https://github.com/ADEPT-ML/Explainability/blob/main/README.md#adding-functionality)
+[▶ How to add explainability modules](https://github.com/ADEPT-ML/Explainability#adding-functionality)
 
-[▶ How to add new import-functionality (for other formats)](https://github.com/ADEPT-ML/Data-Management/blob/main/README.md#adding-functionality)
+[▶ How to add new import-functionality (for other formats)](https://github.com/ADEPT-ML/Data-Management#adding-functionality)
 
 ## Contributors
 
