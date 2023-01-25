@@ -104,12 +104,10 @@ We plan to add synthetic data so that interested parties can reproduce our resul
 
 ## Quick start
 
-To pull the repository and all of its submodules you will have to initialize and update with
+Pull the repository and all of its submodules with
 
 ```sh
-# clone this repository first
-git submodule init
-git submodule update
+git clone --recurse-submodules https://github.com/ADEPT-ML/Server.git
 ```
 
 Before you start ADEPT, you must create a top-level `data` folder containing 1) the building-xls-files and 2) the
