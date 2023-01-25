@@ -129,6 +129,9 @@ the `Data-Management` service.
     └── [...]
 ```
 
+If ADEPT is to be deployed outside of localhost, the `BACKEND_BASE_URL` in the [docker_compose](docker-compose.yaml) must be adjusted (otherwise .env in
+the [Frontend](https://github.com/ADEPT-ML/Frontend) repository for deployments without Docker).
+
 The complete system can be quickly bootstrapped with Docker:
 
 ```sh
