@@ -39,9 +39,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://user-images.githubusercontent.com/47151705/212996965-77cc9b7b-c89e-4a78-a8a1-23e2f1662650.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/47151705/212996953-9a26beb6-d225-4c3a-9c5e-b8d1e29c4e4f.png">
-    <img alt="ADEPT Screenshot" width="100%" src="https://user-images.githubusercontent.com/47151705/212996953-9a26beb6-d225-4c3a-9c5e-b8d1e29c4e4f.png">
+    <source media="(prefers-color-scheme: dark)"  srcset="https://user-images.githubusercontent.com/47151705/215348029-add643c9-a803-4ba5-95dd-53de033aa29d.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/47151705/215348061-ca154fe1-25e7-4e91-a419-391d80c715f2.png">
+    <img alt="ADEPT Screenshot" width="100%" src="https://user-images.githubusercontent.com/47151705/215348061-ca154fe1-25e7-4e91-a419-391d80c715f2.png">
   </picture>    
 </p>
 
