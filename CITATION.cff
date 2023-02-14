@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: ADEPT
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - given-names: Benedikt Tobias
+    family-names: Müller
+    orcid: 'https://orcid.org/0000-0003-4945-6546'
+  - given-names: Janis
+    family-names: Büse
+    orcid: 'https://orcid.org/0000-0002-2247-0906'
+  - given-names: Marvin
+    family-names: Ender
+repository-code: 'https://github.com/ADEPT-ML/Server'
+url: 'https://github.com/ADEPT-ML'
+abstract: >-
+  ADEPT is a framework for detecting anomalies in energy
+  consumption data. As such, it includes interfaces for
+  processing user time series data and can be used to
+  interactively visualize explanatory information about
+  anomalies. ADEPT features several shallow and deep machine
+  learning algorithms for anomaly detection and explanation.
+keywords:
+  - machine learning
+  - anomaly detection
+  - explainability
+  - dashboard
+license: Apache-2.0
